@@ -5,6 +5,14 @@ Webprofile::Application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'pages#home'
 
+  get 'about' => 'pages#about'
+  get 'work' => 'pages#work'
+  get 'breaking-news' => 'pages#breaking'
+  get 'profiles' => 'pages#profiles'
+  get 'enterprise' => 'pages#enterprise'
+  get 'blogs' => 'pages#blogs'
+  get 'magazine' => 'pages#magazine'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
