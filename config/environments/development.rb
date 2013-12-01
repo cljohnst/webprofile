@@ -26,4 +26,5 @@ Webprofile::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+  config.secret_key_base = '50320c3f48bb0671409510152d22fb1680073e53d01f385cb3390c2fac313311d277e9acbf65394a560e9afe030e41a10c11bad52e4b58f6a9139c906244a770'
 end

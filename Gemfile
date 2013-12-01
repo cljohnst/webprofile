@@ -45,3 +45,8 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+
+# Use Thin as a dev/test webserver
+gem 'thin', group: [:development]
+gem 'quiet_assets', :group => :development
