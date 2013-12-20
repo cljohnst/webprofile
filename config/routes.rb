@@ -11,6 +11,7 @@ Webprofile::Application.routes.draw do
   get 'profiles' => 'pages#profiles'
   get 'enterprise' => 'pages#enterprise'
   get 'media' => 'pages#media'
+  get 'contact' => 'pages#contact'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
