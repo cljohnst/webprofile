@@ -6,6 +6,10 @@ gem 'rails', '4.0.1'
 #postgres database 
 gem 'pg'
 
+#Heroku Support
+gem 'rails_12factor'
+gem 'rails_serve_static_assets'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
