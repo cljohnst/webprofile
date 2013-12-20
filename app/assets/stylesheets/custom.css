@@ -16,6 +16,11 @@ body {
   padding-top: 50px; /* body padding for fixed top nav */
 }
 
+.navbar-brand {
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+
 .homemenu {
 text-align: center;
 margin-left: auto;
@@ -33,13 +38,15 @@ margin-right: auto;
   font-weight: bold;
 }
 
-.homemenu h2 {
-  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-  font-weight: bold;
-}
-
 .homehead span {
   font-size: 75px;
+}
+
+.homemenu h2, a:hover, a:visited, a:active, a:link {
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-weight: bold;
+  color: #333333;
+  text-decoration: none;
 }
 
 .homesub {

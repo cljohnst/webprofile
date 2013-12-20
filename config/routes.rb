@@ -7,12 +7,10 @@ Webprofile::Application.routes.draw do
 
   get 'about' => 'pages#about'
   get 'work' => 'pages#work'
-  get 'breaking-news' => 'pages#breaking'
+  get 'breaking' => 'pages#breaking'
   get 'profiles' => 'pages#profiles'
   get 'enterprise' => 'pages#enterprise'
-  get 'blogs' => 'pages#blogs'
-  get 'magazine' => 'pages#magazine'
-
+  get 'media' => 'pages#media'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
