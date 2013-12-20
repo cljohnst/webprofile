@@ -42,11 +42,23 @@ margin-right: auto;
   font-size: 75px;
 }
 
-.homemenu h2, a:hover, a:visited, a:active, a:link {
+.homemenu h2 {
   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   font-weight: bold;
   color: #333333;
   text-decoration: none;
+}
+
+h2, a:visited, a:active, a:link{
+  text-decoration: none;
+}
+
+h2, a:hover{
+  color: #222222;
+}
+
+h2, a:link, a:visited{
+  color: #333333;
 }
 
 .homesub {
