@@ -33,13 +33,13 @@ margin-right: auto;
 
 .homehead {
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
   font-weight: bold;
 }
 
 .homehead span {
-  font-size: 75px;
+  font-size: 60px;
 }
 
 .homemenu h2 {
