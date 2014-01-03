@@ -11,3 +11,4 @@
 .bundle
 .sass_cache/
 .DS_Store
+/config/database.yml
